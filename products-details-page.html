@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تمام محصولات - وبسایت فروشگاهی</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" alt="" width="120px">
+          </div>
+          <nav>
+            <ul id="menuItems">
+              <li><a href="">حساب کاربری</a></li>
+              <li><a href="">تماس با ما</a></li>
+              <li><a href="">درباره ما</a></li>
+              <li><a href="">محصولات</a></li>
+              <li><a href="">خانه</a></li>
+            </ul>
+          </nav>
+          <img src="images/cart.png" width="30px" height="30px">
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+      </div>
+
+      <!-- single products details -->
+
+      <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+              <p>خانه / تیشرت</p>
+              <h1>تیشرت قرمز ارزان قیمت</h1>
+              <h4>50,000 تومان</h4>
+                <select>
+                  <option>انتخاب اندازه</option>
+                  <option>XXL</option>
+                  <option>XL</option>
+                  <option>Large</option>
+                  <option>Medium</option>
+                  <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">اضافه کردن به سبد خرید</a>
+                <h3>توضیحات محصول <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+            </div>
+            <div class="col-2">
+              <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+              <div class="small-img-row">
+                <div class="small-img-col">
+                  <img src="images/gallery-1.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                  <img src="images/gallery-2.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                  <img src="images/gallery-3.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                  <img src="images/gallery-4.jpg" width="100%" class="small-img">
+                </div>
+              </div>
+           </div>
+        </div>
+      </div>
+
+      <!-- title -->
+
+        <div class="small-container">
+          <div class="row row-2">
+            <h2>محصولات مرتبط</h2>
+            <p>بیشتر</p>
+          </div>
+        </div>
+
+      <!-- products -->
+      <div class="small-container">
+            <div class="row">
+              <div class="col-4">
+                <img src="images/product-9.jpg">
+                <h4>ساعت</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>50,000 تومان</p>
+              </div>
+              <div class="col-4">
+                <img src="images/product-10.jpg">
+                <h4>کفش اسپورت</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>50,000 تومان</p>
+              </div>
+              <div class="col-4">
+                <img src="images/product-11.jpg">
+                <h4>کفش ورزشی</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>50,000 تومان</p>
+              </div>
+              <div class="col-4">
+                <img src="images/product-12.jpg">
+                <h4>شلوار ورزشی</h4>
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>50,000 تومان</p>
+              </div>
+            </div>
+
+        </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>دانلود نرم افزار های ما</h3>
+              <p>دانلود نرم افزار برای سیستم عامل های اندروید و Ios</p>
+              <div class="app-logo">
+                <img src="images/play-store.png">
+                <img src="images/app-store.png">
+              </div>
+            </div>
+            <div class="footer-col-2">
+              <img src="images/logo-white.png" alt="">
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
+            </div>
+            <div class="footer-col-3">
+              <h3>آدرس های منتخب</h3>
+                <ul>
+                  <li>کوپونز</li>
+                  <li>صفحه بلاگ</li>
+                  <li>سیاست بازگشت</li>
+                  <li>عضو شرکت وابسته شوید</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>ما را دنبال کنید</h3>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>YouTube</li>
+                </ul>
+            </div>
+          </div>
+          <hr>
+          <p class="copyright">رایگان یاد بگیرید - Copyright 2020</p>
+        </div>
+      </div>
+
+<!-- js for toggle menu -->
+
+     <script>
+        var MenuItems = document.getElementById("menuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+          if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+          }else{
+            MenuItems.style.maxHeight = "0px";
+          }
+        }
+
+     </script>
+<!-- js for change images of  gallery-->
+      <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+        SmallImg[0].onclick = function()
+          {
+            ProductImg.src = SmallImg[0].src;
+          }
+        SmallImg[1].onclick = function()
+          {
+            ProductImg.src = SmallImg[1].src;
+          }
+        SmallImg[2].onclick = function()
+          {
+            ProductImg.src = SmallImg[2].src;
+          }
+        SmallImg[3].onclick = function()
+          {
+            ProductImg.src = SmallImg[3].src;
+          }
+      </script>
+
+  </body>
+</html>>
